@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<Module>
+	
+	<GlobalSolutionName>ThirdParty</GlobalSolutionName>
+	<GlobalNamespace>potato</GlobalNamespace>
+
+	<FilterPlatform include="windows">
+		<StaticLibrary>
+			<Name>thirdparty_dxmath</Name>
+			<SourceRoot>.</SourceRoot>
+			<ThirdParty>true</ThirdParty>
+			<ExportedIncludeDirectory>Inc</ExportedIncludeDirectory>
+			<ExportedIncludeDirectory>SHMath</ExportedIncludeDirectory>
+
+			<ThirdPartySourceFile>
+				SHMath/DirectXSH.cpp
+			</ThirdPartySourceFile>
+		</StaticLibrary>
+	</FilterPlatform>
+
+</Module>
